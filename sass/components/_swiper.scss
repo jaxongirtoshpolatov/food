@@ -1,0 +1,86 @@
+@use '../abstracts/variables';
+.cold__title {
+    margin: 50px 0;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15px;
+    border-left: 4px solid #618967;
+    padding-left: 19px;
+}
+
+.cold {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #4C4949;
+}
+
+#meat.cold {
+    border-bottom: none;
+}
+
+.card {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+}
+
+.card-body {
+    padding: {
+        top: 14px;
+        right: 16px;
+        bottom: 18px;
+        left: 20px;
+    }
+}
+
+.card-top {
+    margin-bottom: 5px;
+}
+
+.card-bottom {
+    margin-top: 15px;
+}
+
+.card-title {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card-weight {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-text {
+    color: #CFCFCF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.price {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    background-color: variables.$btn-color;
+    padding: 13px 16px 13px 19px;
+    border-radius: 10px;
+}
+
+button>p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.swiper {
+    width: 100%;
+    padding-left: 16px;
+}
