@@ -1,0 +1,7 @@
+@mixin input-icon($left, $right) {
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    left: $left;
+    right: $right;
+}
