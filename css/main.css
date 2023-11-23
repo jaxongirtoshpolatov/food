@@ -56,6 +56,10 @@ body {
   background-color: #403C3B;
   font-family: "Gilroy";
 }
+body::-webkit-scrollbar-thumb {
+  background-color: darkblue;
+  border-radius: 10px;
+}
 
 .ml-30 {
   margin-left: 30px;

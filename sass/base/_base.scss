@@ -57,6 +57,10 @@ a,
 body {
     background-color: variables.$bg-color;
     font-family: 'Gilroy';
+    &::-webkit-scrollbar-thumb {
+        background-color: darkblue; // Scrollbar thumb rangi
+        border-radius: 10px; // Scrollbar thumbning radiusi
+      }
 }
 
 .ml-30 {
@@ -70,6 +74,7 @@ body {
 .p10 {
     padding: 10px;
 }
+
 
 @media screen and (min-width: 1440px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
