@@ -115,9 +115,21 @@
     width: 100%;
     padding: 10px !important;
     text-align: center !important;
+    flex-direction: column !important;
   }
   .footer .two {
     display: none !important;
+  }
+  .footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer .footer-content .footer-nav {
+    align-items: center !important;
+    justify-content: center !important;
+    padding-bottom: 40px;
   }
   .footer .arrow-bg {
     margin-right: 10px !important;
