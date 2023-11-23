@@ -74,7 +74,7 @@
     flex-direction: column !important;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
   .navbar-expand-lg .navbar-collapse {
     max-width: 95%;
     margin: 0 auto;
