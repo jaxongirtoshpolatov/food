@@ -1,0 +1,81 @@
+.accordion {
+    max-width: 618px;
+    margin-right: 20px;
+}
+.accordion-button {
+    background-color: #69966F;
+}
+.accordion-item {
+    background-color: #504B4A ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.accordion-button {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    border-radius: 10px !important;
+    // margin-bottom: 10px;
+    // &[data-bs-target="#panelsStayOpen-collapseSix"] {
+    //     margin-bottom: 0;
+    // }
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #504B4A;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #00ff2279;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-body {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: {
+        top: 37px;
+        right: 41px;
+        bottom: 40px;
+        left: 30px;
+    }
+}
+.workSchedule {
+    margin-top: 30px;
+    &:first-child {
+        margin-right: 100px;
+    }
+    .workSchedule-title {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .workSchedule-time {
+        color: #CFCFCF;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+}
+.order {
+    &__title {
+        margin-bottom: 10px;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    &__descr {
+        margin-bottom: 37px;
+        color: #CFCFCF;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35px;
+        max-width: 697px;
+    }
+}
