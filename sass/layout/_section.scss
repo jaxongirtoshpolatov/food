@@ -3,6 +3,10 @@
     background-image: url(../../images/coffe-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
     .container {
         padding: {
             top: 71px;
@@ -72,7 +76,7 @@
         &:hover > p {
             color: #79B282;
         }
-        &:hover > svg > path {
+        &:hover > svg  path {
             fill: #79B282;
         }
         padding: {
@@ -92,5 +96,90 @@
         font-weight: 400;
         line-height: 25px;
         margin-top: 26px;
+    }
+}
+
+.contact {
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 667px;
+    position: relative;
+    top: -217px;
+    &__card {
+        width: 526px;
+        background: #2E2B2C;
+        position: absolute;
+        bottom: 40px;
+        left: 109px;
+        padding: {
+            top: 25px;
+            right: 42px;
+            bottom: 24px;
+            left: 52px;
+        }
+    }
+    &__email-content {
+        margin-left: 15px;
+        margin-bottom: 28px;
+    }
+    &__location-content {
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    &__title {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 26px;
+    }
+    .line {
+        width: 527px;
+        height: 1px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.15) 48.33%, rgba(255, 255, 255, 0.00) 100.87%);
+    }
+    &__location-title, &__email-title {
+        color: #CFCFCF;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .adders, &__email-loc {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &__btns {
+        margin-bottom: 30px;
+    }
+    .btn {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 700;
+        background-color: #66916C;
+        padding: 22px 30px;
+        border-radius: 10px;
+        margin-right: 33px;
+    }
+    .phone {
+        color: #FFF;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .descr {
+        color: #CFCFCF;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .social-media__title {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .icon  img {
+        margin-left: 11px;
+        &:first-child {
+            margin-left: 26px;
+        }
     }
 }
