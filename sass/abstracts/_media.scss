@@ -1,0 +1,82 @@
+@media screen and (max-width: 1319px) {
+    .navbar-expand-lg .navbar-collapse {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-expand-lg .navbar-collapse {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .card {
+       width: 95% !important;
+    }
+    .coffe {
+        .container {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-expand-lg .navbar-collapse {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .card {
+       width: 95% !important;
+    }
+    .coffe .container {
+        flex-direction: column;
+        padding: 20px !important;
+    }
+    .coffe__content {
+        padding: {
+            top: 10px !important;
+        }
+    }
+    .coffe .btn {
+        width: 100%;
+    }
+    .coffe__cards {
+        grid-template-columns: auto !important;
+    }
+    .contact__card {
+        border-radius: 10px;
+        left: 10px !important;
+        right: 20px !important;
+        width: 95% !important;
+        bottom: 70px !important;
+        top: 250px !important;
+    }
+    .contact__btns {
+        flex-direction: column;
+    }
+    .social-media {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        width: 100%;
+        padding: 10px !important;
+        text-align: center !important;
+        .two {
+            display: none !important;
+        }
+        .arrow-bg {
+            margin-right: 10px !important;
+            width: 32px !important;
+            height: 32px !important;
+        }
+         .brand-info {
+            margin-right: 0 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            flex-direction: column !important;
+        }
+    }
+}

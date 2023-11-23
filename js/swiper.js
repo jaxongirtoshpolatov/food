@@ -1,6 +1,26 @@
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 16,
+    centeredSlides: true, // Slayderlarni markazga olish
+    centeredSlidesBounds: true, // Agar slayderlar soni kam bo'lsa, ularni markazga olish
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 16,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 16,
+      },
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 16,
+      },
+    },
     autoplay: {
         delay: 2500,
         disableOnInteraction: false
@@ -18,6 +38,26 @@ let swiper = new Swiper(".mySwiper", {
 let hotSwiper = new Swiper(".hotSwiper", {
     slidesPerView: 4,
     spaceBetween: 16,
+    centeredSlides: true, // Slayderlarni markazga olish
+    centeredSlidesBounds: true, // Agar slayderlar soni kam bo'lsa, ularni markazga olish
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 16,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 16,
+      },
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 16,
+      },
+    },
     autoplay: {
         delay: 2000,
         disableOnInteraction: false
@@ -33,6 +73,26 @@ let hotSwiper = new Swiper(".hotSwiper", {
   let meatSwiper = new Swiper(".meatSwiper", {
     slidesPerView: 4,
     spaceBetween: 16,
+    centeredSlides: true, // Slayderlarni markazga olish
+    centeredSlidesBounds: true, // Agar slayderlar soni kam bo'lsa, ularni markazga olish
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 16,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 16,
+      },
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 16,
+      },
+    },
     autoplay: {
         delay: 3000,
         disableOnInteraction: false
